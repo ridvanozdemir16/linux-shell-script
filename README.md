@@ -14,35 +14,62 @@ For division and multiplication operations, the divisor and multiplier will be p
 
 APPENDIX:
 
-INPUT FILE:                           OUTPUT FILE:
+INPUT FILE:                  OUTPUT FILE:
 
-0b10101010 + 0b101010                 0b11010100 (POSITIVE)
-0b10101010 – 0b101010                 0b10000000 (POSITIVE)
-0b10101010 – 0b1010101010             0b1000000000 (NEGATIVE)
-0b10101010 * 0b101010                 0b1101111100100 (POSITIVE)
-0b10101010 / 0b101010                 0b100 (POSITIVE)
-0b10101010 % 0b101010                 0b10 (POSITIVE)
+0b10101010 + 0b101010        0b11010100 (POSITIVE)
 
-1009 + 503                            1512
-1009 – 503                            506
-1009 – 5030                           -4021
-1009 * 503                            507527
-1009 / 503                            2
-1009 % 503                            3
+0b10101010 – 0b101010        0b10000000 (POSITIVE)
+
+0b10101010 – 0b1010101010    0b1000000000 (NEGATIVE)
+
+0b10101010 * 0b101010        0b1101111100100 (POSITIVE)
+
+0b10101010 / 0b101010        0b100 (POSITIVE)
+
+0b10101010 % 0b101010        0b10 (POSITIVE)
+
+
+
+1009 + 503                   1512
+
+1009 – 503                   506
+
+1009 – 5030                  -4021
+
+1009 * 503                   507527
+
+1009 / 503                   2
+
+1009 % 503                   3
+
+
   
-0xFED + 0xABC                         0x1AA9 (POSITIVE)
-0xFED – 0xABC                         0x531 (POSITIVE)
-0xFED – 0xABCD                        0x9BE0 (NEGATIVE)
-0xFED * 0xABC                         0xAAF40C (POSITIVE)
-0xFED / 0xABC                         0x1 (POSITIVE)
-0xFED % 0xABC                         0x531 (POSITIVE)
+0xFED + 0xABC                0x1AA9 (POSITIVE)
 
-0b10101010 2 10                       170
-0b10101010 2 16                       0xAA
+0xFED – 0xABC                0x531 (POSITIVE)
 
-1009 10 2                             0b1111110001
-1009 10 16                            0x3F1
+0xFED – 0xABCD               0x9BE0 (NEGATIVE)
 
-0xFED 16 2                            0b111111101101
-0xFED 16 10                           4077
+0xFED * 0xABC                0xAAF40C (POSITIVE)
 
+0xFED / 0xABC                0x1 (POSITIVE)
+
+0xFED % 0xABC                0x531 (POSITIVE)
+
+
+
+0b10101010 2 10              170
+
+0b10101010 2 16              0xAA
+
+
+
+1009 10 2                    0b1111110001
+
+1009 10 16                   0x3F1
+
+
+
+0xFED 16 2                   0b111111101101
+
+0xFED 16 10                  4077
